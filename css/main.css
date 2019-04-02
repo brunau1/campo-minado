@@ -1,0 +1,47 @@
+
+body{
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+#game-table{
+    border-collapse: collapse;  
+    width: 500px;
+    height: 500px;
+}
+
+#game-table tr td{
+    /*border: 1px solid black;*/
+    text-align: center;
+}
+
+#game-table .bomb{
+    background-color: red;
+}
+
+#game-table .empty{
+    background-color: lightgreen;
+}
+#game-canvas{
+	margin: auto;
+}
+#game-panel{
+	border: 1px solid transparent;
+
+	width: 20em;
+
+	position: fixed;
+}
+.card{
+	width: 100%;
+	height: 100%;
+	display: block;
+
+	box-shadow: inset 0px 90px 70px 0px #39005d;
+
+	color: white;
+}
+.list-group-item{
+	    box-shadow: inset 0px 0px 20px;
+}
